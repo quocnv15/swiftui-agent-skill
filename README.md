@@ -1,6 +1,8 @@
 <p align="center">
-    <img src="assets/logo.svg" alt="SwiftUI Pro" height="100" />
+    <img src="assets/logo.svg" alt="SwiftUI Pro - Agent Skill for Claude Code, Codex, and Gemini" height="100" />
 </p>
+
+<h1 align="center">SwiftUI Agent Skill for AI Coding Assistants</h1>
 
 <p align="center">
     <img src="https://img.shields.io/badge/iOS-26+-2980b9.svg" alt="Designed for iOS 26 and later." />
@@ -10,14 +12,22 @@
     </a>
 </p>
 
-An agent skill to help you write smarter, simpler, and more modern SwiftUI, including guidance on API usage, design, performance, and accessibility.
+An agent skill that helps AI coding assistants write smarter, simpler, and more modern SwiftUI, including guidance on API usage, design, performance, and accessibility. Covers navigation, layout, animations, state management, VoiceOver, deprecated API, and more, targeting the mistakes LLMs actually make.
 
-The skill builds upon my existing [AGENTS.md](https://github.com/twostraws/SwiftAgents) file, meaning that you can bring years of knowledge and practical experience into your coding agent of choice in just a few minutes. It uses the [Agent Skills](https://agentskills.io/home) format, so it will work smoothly with Claude Code, Codex, Gemini, Cursor, and more.
+Also available:
+
+- [SwiftData Pro](https://github.com/twostraws/SwiftData-Agent-Skill)
+- [Swift Concurrency Pro](https://github.com/twostraws/Swift-Concurrency-Agent-Skill)
+- [Swift Testing Pro](https://github.com/twostraws/Swift-Testing-Agent-Skill)
+
+Find more agent skills for Swift and Apple platform development at [Swift Agent Skills](https://github.com/twostraws/Swift-Agent-Skills).
+
+The skill builds upon my existing [AGENTS.md](https://github.com/twostraws/SwiftAgents) file, meaning that you can bring years of knowledge and practical experience into your coding agent of choice in just a few minutes. It uses the [Agent Skills](https://agentskills.io/home) format, so it works smoothly with Claude Code, Codex, Gemini, Cursor, and more.
 
 
-## Installing this skill
+## Installing SwiftUI Pro
 
-You can install this skill into Claude, Codex, Gemini, Cursor, and more by using `npx`:
+You can install this skill into Claude Code, Codex, Gemini, Cursor, and more by using `npx`:
 
 ```bash
 npx skills add https://github.com/twostraws/swiftui-agent-skill --skill swiftui-pro
@@ -35,8 +45,10 @@ When using `npx`, you can select exactly which agents you want to use during the
 
 Alternatively, you can clone this whole repository and install it however you want.
 
+If you're using Xcode, watch the YouTube video on [How to Install and Use Agent Skills in Xcode](https://youtu.be/_FXxGQR3rZ8) for a walkthrough.
 
-## Using this skill
+
+## Using SwiftUI Pro
 
 The skill is called SwiftUI Pro, and can be triggered in various ways. For example, in Claude Code you would use this:
 
@@ -53,9 +65,9 @@ You can also trigger the skill using natural language:
 > Use the SwiftUI Pro skill to look for performance problems in this project.
 
 
-## Why use this skill
+## Why Use an Agent Skill for SwiftUI?
 
-This skill is built on thousands of hours of learning, experimenting, and building real-world SwiftUI projects. The rules contained here directly target common mistakes made by LLMs – they sometimes make buttons invisible to VoiceOver, they frequently use deprecated API, and they would often write code that causes surprise performance problems.
+This skill is built on thousands of hours of learning, experimenting, and building real-world SwiftUI projects. The rules contained here directly target common SwiftUI mistakes made by LLMs. They sometimes make buttons invisible to VoiceOver, they frequently use deprecated API, and they would often write code that causes surprise performance problems.
 
 You can read more about why I created this skill in my article: [SwiftUI Agent Skill - Write better code with Claude, Codex, and other AI tools](https://www.hackingwithswift.com/articles/282/swiftui-agent-skill-claude-codex-ai).
 
@@ -73,7 +85,7 @@ Please ensure you abide by the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## License
 
-The SwiftUI Pro agent skill was originally created by [Paul Hudson](https://twitter.com/twostraws), who writes [free Swift tutorials over at Hacking with Swift](https://www.hackingwithswift.com). It’s available under the [MIT License](LICENSE), which permits commercial use, modification, distribution, and private use.
+SwiftUI Pro was originally created by [Paul Hudson](https://twitter.com/twostraws), who writes [free Swift tutorials over at Hacking with Swift](https://www.hackingwithswift.com). It’s available under the [MIT License](LICENSE), which permits commercial use, modification, distribution, and private use.
 
 
 <p align="center">
